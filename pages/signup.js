@@ -23,9 +23,9 @@ import signupPageStyle from '/styles/jss/nextjs-material-kit-pro/pages/signupPag
 import { useRouter } from 'next/router';
 
 const useStyles = makeStyles(signupPageStyle);
-const router = useRouter();
 
 export default function SignUpPage({ ...rest }) {
+  const router = useRouter();
   const [checked, setChecked] = React.useState([1]);
   const handleToggle = (value) => {
     const currentIndex = checked.indexOf(value);

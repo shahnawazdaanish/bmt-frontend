@@ -1,37 +1,29 @@
 /*eslint-disable*/
-import React from "react";
-import makeStyles from "@mui/styles/makeStyles";
-import InputAdornment from "@mui/material/InputAdornment";
-import Checkbox from "@mui/material/Checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import Icon from "@mui/material/Icon";
+import React from 'react';
+import makeStyles from '@mui/styles/makeStyles';
+import InputAdornment from '@mui/material/InputAdornment';
+import Checkbox from '@mui/material/Checkbox';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Icon from '@mui/material/Icon';
 // @mui/icons-material
-import Timeline from "@mui/icons-material/Timeline";
-import Code from "@mui/icons-material/Code";
-import Group from "@mui/icons-material/Group";
-import Face from "@mui/icons-material/Face";
-import Email from "@mui/icons-material/Email";
-import Check from "@mui/icons-material/Check";
-import Favorite from "@mui/icons-material/Favorite";
+import Email from '@mui/icons-material/Email';
+import Check from '@mui/icons-material/Check';
 // core components
-import Header from "/components/Header/Header.js";
-import HeaderLinks from "/components/Header/HeaderLinks.js";
-import Footer from "./Footer";
-import GridContainer from "/components/Grid/GridContainer.js";
-import GridItem from "/components/Grid/GridItem.js";
-import Button from "/components/CustomButtons/Button.js";
-import Card from "/components/Card/Card.js";
-import CardBody from "/components/Card/CardBody.js";
-import InfoArea from "/components/InfoArea/InfoArea.js";
-import CustomInput from "/components/CustomInput/CustomInput.js";
+import Header from '/components/Header/Header.js';
+import HeaderLinks from '/components/Header/HeaderLinks.js';
+import Footer from './Footer';
+import GridContainer from '/components/Grid/GridContainer.js';
+import GridItem from '/components/Grid/GridItem.js';
+import Button from '/components/CustomButtons/Button.js';
+import Card from '/components/Card/Card.js';
+import CardBody from '/components/Card/CardBody.js';
+import CustomInput from '/components/CustomInput/CustomInput.js';
 
-import signupPageStyle from "/styles/jss/nextjs-material-kit-pro/pages/signupPageStyle.js";
-import Image from "next/image";
-import bannerImage from'../public/img/signup-rightsection.jpg';
-import { router } from 'next/client';
+import signupPageStyle from '/styles/jss/nextjs-material-kit-pro/pages/signupPageStyle.js';
+import { useRouter } from 'next/router';
+
 const useStyles = makeStyles(signupPageStyle);
+const router = useRouter();
 
 export default function SignUpPage({ ...rest }) {
   const [checked, setChecked] = React.useState([1]);

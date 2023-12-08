@@ -39,7 +39,7 @@ export default function SectionTeam() {
                   <CardHeader image plain>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
-                        src="/img/faces/card-profile1-square.jpg"
+                        src="/img/faces/team/reza.jpeg"
                         alt="..."
                       />
                     </a>
@@ -47,7 +47,7 @@ export default function SectionTeam() {
                       className={classes.coloredShadow}
                       style={{
                         backgroundImage:
-                          "url('/img/faces/card-profile1-square.jpg')",
+                          "url('/img/faces/team/reza.jpeg')",
                         opacity: "1"
                       }}
                     />
@@ -71,7 +71,7 @@ export default function SectionTeam() {
                   <CardHeader image plain>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
-                        src="/img/faces/card-profile6-square.jpg"
+                        src="/img/faces/team/nethmi.jpeg"
                         alt="..."
                       />
                     </a>
@@ -79,7 +79,7 @@ export default function SectionTeam() {
                       className={classes.coloredShadow}
                       style={{
                         backgroundImage:
-                          "url('/img/faces/card-profile6-square.jpg')",
+                          "url('/img/faces/team/nethmi.jpeg')",
                         opacity: "1"
                       }}
                     />
@@ -103,7 +103,7 @@ export default function SectionTeam() {
                   <CardHeader image plain>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
-                        src="/img/faces/card-profile4-square.jpg"
+                        src="/img/faces/team/parisa.jpeg"
                         alt="..."
                       />
                     </a>
@@ -111,7 +111,7 @@ export default function SectionTeam() {
                       className={classes.coloredShadow}
                       style={{
                         backgroundImage:
-                          "url('/img/faces/card-profile4-square.jpg')",
+                          "url('/img/faces/team/parisa.jpeg')",
                         opacity: "1"
                       }}
                     />
@@ -135,7 +135,7 @@ export default function SectionTeam() {
                   <CardHeader image plain>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
-                        src="/img/faces/card-profile2-square.jpg"
+                        src="/img/faces/team/shahnawaz.jpeg"
                         alt="..."
                       />
                     </a>
@@ -143,7 +143,7 @@ export default function SectionTeam() {
                       className={classes.coloredShadow}
                       style={{
                         backgroundImage:
-                          "url('/img/faces/card-profile2-square.jpg')",
+                          "url('/img/faces/team/shahnawaz.jpeg')",
                         opacity: "1"
                       }}
                     />
@@ -167,7 +167,7 @@ export default function SectionTeam() {
                   <CardHeader image plain>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
-                        src="/img/faces/card-profile1-square.jpg"
+                        src="/img/faces/team/salman.jpeg"
                         alt="..."
                       />
                     </a>
@@ -175,7 +175,7 @@ export default function SectionTeam() {
                       className={classes.coloredShadow}
                       style={{
                         backgroundImage:
-                          "url('/img/faces/card-profile5-square.jpg')",
+                          "url('/img/faces/team/salman.jpeg')",
                         opacity: "1"
                       }}
                     />
